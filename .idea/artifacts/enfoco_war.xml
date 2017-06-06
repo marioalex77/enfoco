@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="enfoco:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="enfoco.war">
+      <element id="artifact" artifact-name="enfoco:war exploded" />
+    </root>
+  </artifact>
+</component>
