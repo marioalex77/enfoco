@@ -1,5 +1,5 @@
 .fixed-header-on header.header{
-    background-color: #FFF !important;
+    background-color: #FFF !important; 
 }
 
 .transparent-header .header-top {
@@ -10,7 +10,7 @@
 .transparent-header header.header.transparent-header-on {
     z-index: 1006;
     position: absolute;
-    width: 100%;
+    width: 100%; 
     background-color: rgba(255,255,255,.92);
     border-bottom: 1px solid rgba(0,0,0,.07);
     border-top-color: #a0a0a0
@@ -21,8 +21,8 @@
 .floating-header header.header.floating-header-on {
     z-index: 1006;
     position: absolute;
-    width: 100%;
-    top:50px;
+    width: 100%; 
+    top:50px; 
 }
 .floating-header header{
     background: transparent;
@@ -33,8 +33,8 @@
     transition: all 0.4s;*/
 }
 .floating-header header > .container{
-    background: #FFF;
-    border-radius:2px;
+      background: #FFF;
+      border-radius:2px;
 }
 .floating-header header.header.floating-header-on nav ul.nav-main > li > a{
     text-transform: uppercase;
@@ -84,15 +84,15 @@
 }
 
 .fixed-header-on .header.fixed .nav > li > a {
-    padding-top: 21px!important;
+        padding-top: 21px!important;
     padding-bottom: 21px!important;
 }
 
 .fixed-header-on .header.fixed div.search a{
-    padding: 20px 5px;
+        padding: 20px 5px;
 }
 
-.fixed-header-on header div.logo {
+.fixed-header-on header div.logo { 
     height: 60px;
 }
 .fixed-header-on header div.logo img{
@@ -109,12 +109,12 @@
 /* Header */
 header {
     clear: both;
-    background: #FFF;
+    background: #FFF; 
     top: 0;
     width: 100%;
     box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
-
+ 
 
 .v-header-shadow {
     background: url(../img/base/shadow-top.png) no-repeat;
@@ -142,12 +142,12 @@ header {
     height: 32px;
     width: 100%;
     bottom: 0;
-    z-index: 99;
+    z-index: 99; 
     border-bottom: 1px solid #d2d3d4;
 }
 
 body.boxed-layout .header-container {
-    margin: 0 auto;
+    margin: 0 auto;  
     box-shadow: 0 0 7px rgba(0,0,0,0.15);
 }
 
@@ -203,7 +203,7 @@ nav.std-menu .menu li > a {
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
-    color: #fff;
+    color: #fff; 
     margin: 2px 0 0 7px;
     padding: 2px 5px;
     display: inline-block;
@@ -222,7 +222,7 @@ nav.std-menu .menu li > a {
 .bg-info {
     background: #9c9c9c !important;
 }
-
+ 
 
 
 .promo-block {
@@ -244,7 +244,7 @@ nav.std-menu .menu li > a {
 body.no-page-top {
     background: #EDEFF2;
 }
-
+ 
 
 body .shopping-cart-widget,
 body .search,
@@ -391,7 +391,7 @@ header div.search {
 }
 
 header div.search .btn-primary:hover,
-header div.search .btn-primary {
+header div.search .btn-primary { 
     border-radius: 2px;
 }
 
@@ -417,7 +417,7 @@ header div.search a {
 
 header div.search-input {
     position: absolute;
-    right: -10px;
+    right: -10px; 
     background: #fff;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -501,8 +501,8 @@ header div.search-input .input-group-btn:last-child > .btn:active {
     top: 0px!important;
 }
 header div.search-input .input-group-btn:last-child > .btn i {
-    margin-right: 0px !important;
-    font-size: 14px;
+     margin-right: 0px !important;
+     font-size: 14px; 
 }
 
 html.webkit header div.search-input .btn {
@@ -632,7 +632,7 @@ header nav ul.nav-main ul.dropdown-menu {
     border-right-color: rgb(235, 235, 235);
 
     border-top-width:3px;
-    border-top-style:solid;
+    border-top-style:solid; 
 }
 
 header nav ul.nav-main ul.dropdown-menu ul.dropdown-menu {
@@ -675,13 +675,13 @@ header nav ul.nav-main li a {
     letter-spacing: 0px;
     text-shadow: 0 0px 0px rgba(0, 0, 0, 0.0);
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 600; 
     letter-spacing: -0.2px;
     -webkit-transition: none;
     -o-transition: none;
     transition: none;
 }
-
+ 
 
 header nav ul.nav-main i.fa-caret-down.fa-caret-down:before {
     content: "\f107";
@@ -695,7 +695,7 @@ header nav ul.nav-pills > li > a:before {
 }
 
 header ul.nav-pills > li > a:hover {
-    color: #fff;
+    color: #fff; 
     background: none !important;
 }
 
@@ -723,7 +723,7 @@ header nav ul.nav-main li ul a {
     font-weight: normal;
     font-size: 0.9em;
 }
-
+ 
 
 header nav ul.nav-main li.dropdown:hover > a i.fa-caret-down {
     -moz-transition: all 0.2s;
@@ -853,36 +853,36 @@ nav.std-menu.header-top-menu .menu li > a {
         transition: opacity ease .3s;
         opacity: 0;
     }
-
+    
     header nav ul.nav-main li.dropdown:hover > ul.dropdown-menu {
         top: auto;
         left: auto;
         opacity: 1;
     }
-
+    
     .mega-menu-content,
     .mega-menu-content [class*="col"] {
         border-left: 1px dotted #e7e7e7;
     }
-
+    
     .mega-menu-content,
     .mega-menu-content [class*="col"]:first-child {
         border-left: 0px dotted #e7e7e7;
     }
-
+    
     nav.mega-menu .nav,
     nav.mega-menu .dropup,
     nav.mega-menu .dropdown,
     nav.mega-menu .collapse {
         position: static;
     }
-
+    
     header nav.mega-menu ul.nav-main .mega-menu-content {
         text-shadow: none;
     }
-
+    
     header nav.mega-menu ul.nav-main li.mega-menu-item ul.dropdown-menu {
-        background: #FFFFFF !important;
+        background: #FFFFFF !important; 
         color: #3F3F3F;
         padding: 0px 15px;
         padding-left: 15px;
@@ -891,15 +891,15 @@ nav.std-menu.header-top-menu .menu li > a {
         -webkit-box-shadow: 0 20px 45px rgba(0, 0, 0, 0.13);
         box-shadow: 0 20px 45px rgba(0, 0, 0, 0.13);
         border-top-width:3px;
-        border-top-style:solid;
+        border-top-style:solid; 
     }
-
+    
     header nav.mega-menu ul.nav-main li.mega-menu-fullwidth ul.dropdown-menu {
         -moz-border-radius: 3px;
         -webkit-border-radius: 3px;
         border-radius: 3px;
     }
-
+    
     header nav.mega-menu ul.nav-main li.mega-menu-item .mega-menu-sub-title {
         color: #444;
         display: block;
@@ -909,13 +909,13 @@ nav.std-menu.header-top-menu .menu li > a {
         cursor: default;
         padding-left: 25px;
     }
-
+    
     header nav.mega-menu ul.nav-main li.mega-menu-item ul.sub-menu {
         list-style: none;
         padding: 0;
         margin: 0;
     }
-
+    
     header nav.mega-menu ul.nav-main li.mega-menu-item .no-smx ul.sub-menu a .fa {
         color: #333;
         width: 20px;
@@ -923,7 +923,7 @@ nav.std-menu.header-top-menu .menu li > a {
         opacity: .9;
         margin-right: 4px;
     }
-
+    
     header nav.mega-menu ul.nav-main li.mega-menu-item ul.sub-menu a {
         color: #333;
         text-shadow: none;
@@ -941,9 +941,9 @@ nav.std-menu.header-top-menu .menu li > a {
         -o-transition: all 0.2s;
         -webkit-transition: all 0.2s;
         transition: all 0.2s;
-        padding-left: 30px;
+        padding-left: 30px; 
     }
-
+    
     header nav.mega-menu ul.nav-main li.mega-menu-item ul.sub-menu a:before {
         display: inline-block;
         font-family: FontAwesome;
@@ -957,64 +957,64 @@ nav.std-menu.header-top-menu .menu li > a {
         color: #464646;
         font-size: 11px;
     }
-
+    
     header nav.mega-menu ul.nav-main li.mega-menu-item .no-smx ul.sub-menu a:before {
         display: none;
     }
-
+    
     header nav.mega-menu ul.nav-main li.mega-menu-item:hover ul.sub-menu li:hover a:hover {
         background: #F5F5F5 !important;
         text-decoration: none;
     }
-
+    
     nav.mega-menu .navbar-inner,
     nav.mega-menu .container {
         position: relative;
     }
-
+    
     nav.mega-menu .dropdown-menu {
         left: auto;
     }
-
+    
     nav.mega-menu .dropdown-menu > li {
         display: block;
         /*border-bottom: 1px solid rgb(247, 247, 247);*/
     }
-
+    
     nav.mega-menu .dropdown-menu > li:last-child {
         border-bottom: 0 solid rgb(247, 247, 247);
     }
-
+    
     nav.mega-menu .nav.pull-right .dropdown-menu {
         right: 0;
     }
-
+    
     nav.mega-menu .mega-menu-content [class*="col"] {
         padding: 30px 0;
     }
-
+    
     nav.mega-menu .mega-menu-content:before,
     nav.mega-menu .mega-menu-content:after {
         display: table;
         content: "";
         line-height: 0;
     }
-
+    
     nav.mega-menu .mega-menu-content:after {
         clear: both;
     }
-
+    
     nav.mega-menu.navbar .nav > li > .dropdown-menu:after,
     nav.mega-menu.navbar .nav > li > .dropdown-menu:before {
         display: none;
     }
-
+    
     nav.mega-menu .dropdown.mega-menu-fullwidth .dropdown-menu {
         width: 95%;
         left: 2%;
         right: 2% !important;
     }
-
+    
     nav.mega-menu ul.nav-main li ul.dropdown-menu ul.dropdown-menu {
         padding-top: 10px;
         padding-bottom: 10px;
@@ -1022,16 +1022,16 @@ nav.std-menu.header-top-menu .menu li > a {
         padding-right: 0;
         margin-top: -10px;
     }
-
+    
     nav.mega-menu ul.sub-menu li.dropdown-submenu ul.dropdown-menu {
         left: 100%;
     }
-
+    
     nav.mega-menu ul.sub-menu li.dropdown-submenu ul.dropdown-menu li a {
         padding: 6px 8px;
         padding-left: 19px;
     }
-
+    
     nav.mega-menu .dropdown.mega-menu-fullwidth .dropdown-menu.two-columns {
         width: 50%;
         left: 26%;
@@ -1040,34 +1040,34 @@ nav.std-menu.header-top-menu .menu li > a {
 
 
 @-webkit-keyframes fadeInDown {
-    0% {
-        opacity: 0;
-        -webkit-transform: translate3d(0, -100%, 0);
-        transform: translate3d(0, -100%, 0);
-    }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
 
-    100% {
-        opacity: 1;
-        -webkit-transform: none;
-        transform: none;
-    }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
 }
 
 @keyframes fadeInDown {
-    0% {
-        opacity: 0;
-        -webkit-transform: translate3d(0, -100%, 0);
-        transform: translate3d(0, -100%, 0);
-    }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
 
-    100% {
-        opacity: 1;
-        -webkit-transform: none;
-        transform: none;
-    }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
 }
 
 .fadeInDown {
-    -webkit-animation-name: fadeInDown;
-    animation-name: fadeInDown;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
 }
