@@ -4,6 +4,7 @@ import com.maguzman.enfoco.beans.Usuario;
 import com.maguzman.enfoco.dao.UsuarioDAO;
 import com.maguzman.enfoco.service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -18,6 +19,9 @@ public class UsuarioServiceImpl implements UsuarioService {
     @Autowired
     private UsuarioDAO dao;
 
+    @Autowired
+    private PasswordEncoder passwordEncoder;
+
     public Usuario buscarPorClave(Integer idUsuario){
         return dao.buscarPorClave(idUsuario);
     }
@@ -28,6 +32,7 @@ public class UsuarioServiceImpl implements UsuarioService {
         return (List<Usuario>) dao.buscarTodos();
     }
     public void salvar(Usuario usuario){
+        usuario.setPassword(passwordEncoder.encode(usuario.getPassword()));
         dao.salvar(usuario);
     }
     public void borrar(Integer idUsuario){
@@ -37,6 +42,7 @@ public class UsuarioServiceImpl implements UsuarioService {
         dao.buscarPorCorreo(correo);
     }
     public Usuario actualizar(Usuario usuario){
+        usuario.setPassword(passwordEncoder.encode(usuario.getPassword()));
         return dao.actualizar(usuario);
     }
     public boolean esCorreoUnico(Integer idUsuario, String correo){
