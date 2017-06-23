@@ -27,19 +27,19 @@
     <link href="http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,700,800,900" rel="stylesheet" type="text/css">
 
     <!-- Libs CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/font-awesome.min.css" rel="stylesheet" />
-    <link href="css/streamline-icon.css" rel="stylesheet" />
-    <link href="css/v-nav-menu.css" rel="stylesheet" />
-    <link href="css/v-portfolio.css" rel="stylesheet" />
-    <link href="css/v-blog.css" rel="stylesheet" />
-    <link href="css/v-animation.css" rel="stylesheet" />
-    <link href="css/v-bg-stylish.css" rel="stylesheet" />
-    <link href="css/v-shortcodes.css" rel="stylesheet" />
-    <link href="css/theme-responsive.css" rel="stylesheet" />
-    <link href="plugins/owl-carousel/owl.theme.css" rel="stylesheet" />
-    <link href="plugins/owl-carousel/owl.carousel.css" rel="stylesheet" />
+    <link href="<c:url value='/resources/css/bootstrap.min.css'/>" rel="stylesheet">
+    <link href="<c:url value='/resources/css/style.css'/>" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="<c:url value='/resources/css/streamline-icon.css'/>" rel="stylesheet">
+    <link href="<c:url value='/resources/css/v-nav-menu.css'/>" rel="stylesheet">
+    <link href="<c:url value='/resources/css/v-portfolio.css'/>" rel="stylesheet">
+    <link href="<c:url value='/resources/css/v-blog.css'/>" rel="stylesheet">
+    <link href="<c:url value='/resources/css/v-animation.css'/>" rel="stylesheet">
+    <link href="<c:url value='/resources/css/v-bg-stylish.css'/>" rel="stylesheet">
+    <link href="<c:url value='/resources/css/v-shortcodes.css'/>" rel="stylesheet">
+    <link href="<c:url value='/resources/css/theme-responsive.css'/>" rel="stylesheet">
+    <link href="<c:url value='/resources/plugins/owl-carrousel/assets/owl.theme.default.css'/>" rel="stylesheet">
+    <link href="<c:url value='/resources/plugins/owl-carrousel/assets/owl.carousel.css'/>" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
@@ -409,18 +409,18 @@
 <div id="back-to-top" class="animate-top"><i class="fa fa-angle-up"></i></div>
 
 <!-- Libs -->
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.flexslider-min.js"></script>
-<script src="js/jquery.easing.js"></script>
-<script src="js/jquery.fitvids.js"></script>
-<script src="js/jquery.carouFredSel.min.js"></script>
-<script src="js/jquery.validate.js"></script>
-<script src="js/theme-plugins.js"></script>
-<script src="js/jquery.isotope.min.js"></script>
-<script src="js/imagesloaded.js"></script>
-<script src="js/view.min.js?auto"></script>
+<script src="<c:url value='/resources/js/jquery.min.js'/>"></script>
+<script src="<c:url value='/resources/js/bootstrap.min.js'/>"></script>
+<script src="<c:url value='/resources/js/jquery.flexslider-min.js'/>"></script>
+<script src="<c:url value='/resources/js/jquery.easing.js'/>"></script>
+<script src="<c:url value='/resources/js/jquery.fitvids.js'/>"></script>
+<script src="<c:url value='/resources/js/jquery.carouFredSel.min.js'/>"></script>
+<script src="<c:url value='/resources/js/jquery.validate.js'/>"></script>
+<script src="<c:url value='/resources/js/theme-plugins.js'/>"></script>
+<script src="<c:url value='/resources/js/jquery.isotope.min.js'/>"></script>
+<script src="<c:url value='/resources/js/imagesloaded.js'/>"></script>
+<script src="<c:url value='/resources/js/view.min.js'/>"></script>
 
-<script src="js/theme-core.js"></script>
+<script src="<c:url value='/resources/js/theme-core.js'/>"></script>
 </body>
 </html>

@@ -28,7 +28,7 @@
     <!-- Libs CSS -->
     <link href="<c:url value='/resources/css/bootstrap.min.css'/>" rel="stylesheet">
     <link href="<c:url value='/resources/css/style.css'/>" rel="stylesheet">
-    <link href="<c:url value='/resources/css/font-awesome.min.css'/>" rel="stylesheet">
+    <link href="<c:url value='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'/>" rel="stylesheet">
     <link href="<c:url value='/resources/css/streamline-icon.css'/>" rel="stylesheet">
     <link href="<c:url value='/resources/css/v-nav-menu.css'/>" rel="stylesheet">
     <link href="<c:url value='/resources/css/v-portfolio.css'/>" rel="stylesheet">
@@ -60,7 +60,7 @@
 
     <div id="container">
         <!--Set your own slider options. Look at the v_RevolutionSlider() function in 'theme-core.js' file to see options-->
-        <div class="home-slider-wrap fullwidthbanner-container" id="home" style="overflow: visible;">
+        <div class="home-slider-wrap fullwidthbanner-container" id="home" style="overflow: visible;"    >
             <div class="v-rev-slider revslider-initialised tp-simpleresponsive"
                  data-slider-options="{ &quot;startheight&quot;: 570 }"
                  id="revslider-456" style="max-height: 570px; height: 517px;">
