@@ -14,9 +14,9 @@
     <div class="container">
 
         <!--Site Logo-->
-        <div class="logo" data-sticky-logo="img/logo-white.png" data-normal-logo="img/logo.png">
-            <a href="http://volvox.master-themes.com/index.html">
-                <img alt="Volvox" src="./index_files/logo.png" data-logo-height="35">
+        <div class="logo">
+            <a href="#">
+                <img alt="Enfoco" src="<c:url value='/resources/img/EnfocoLogo1.png'/>" width="100">
             </a>
         </div>
         <!--End Site Logo-->

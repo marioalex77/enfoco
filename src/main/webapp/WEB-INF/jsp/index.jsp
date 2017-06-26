@@ -59,174 +59,379 @@
     <!--End Header-->
 
     <div id="container">
-        <!--Set your own slider options. Look at the v_RevolutionSlider() function in 'theme-core.js' file to see options-->
-        <div class="home-slider-wrap fullwidthbanner-container" id="home" style="overflow: visible;"    >
-            <div class="v-rev-slider revslider-initialised tp-simpleresponsive"
-                 data-slider-options="{ &quot;startheight&quot;: 570 }"
-                 id="revslider-456" style="max-height: 570px; height: 517px;">
-                <ul style="display: block; overflow: hidden; width: 100%; height: 100%; max-height: none;">
-                    <li data-transition="fade" data-slotamount="7" data-masterspeed="600" class=""
-                        style="width: 100%; height: 100%; overflow: hidden; z-index: 18; visibility: hidden; opacity: 0;">
-                        <div class="slotholder" style="width:100%;height:100%;" data-duration="undefined" data-zoomstart="undefined"
-                           data-zoomend="undefined" data-rotationstart="undefined" data-rotationend="undefined"
-                           data-ease="undefined" data-bgpositionend="undefined" data-bgposition="center center"
-                           data-kenburns="undefined" data-easeme="undefined" data-bgfit="cover" data-bgfitend="undefined"
-                           data-owidth="undefined" data-oheight="undefined">
-                            <div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="cover"
-                               data-bgposition="center center" data-bgrepeat="no-repeat" data-lazydone="undefined"
-                               src="img/slider/slider1.jpg" data-src="img/slider/slider1.jpg"
-                               style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat;
-                               background-image: url(&quot;img/slider/slider1.jpg&quot;); background-size: cover;
-                               background-position: center center; width: 100%; height: 100%; opacity: 1;
-                               visibility: inherit;">
-
-                            </div>
+        <div class="home-slider-wrap fullwidthbanner-container">
+            <div class="v-rev-slider" data-slider-options='{ "startheight":500 }'>
+                <ul>
+                    <!-- SLIDE  -->
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="1000">
+                        <!-- MAIN IMAGE -->
+                        <img src="<c:url  value='/resources/img/wedding.jpg'/>" alt="fullslide6"
+                             data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption light_heavy_70_shadowed lfb ltt tp-resizeme"
+                             data-x="60"
+                             data-y="110"
+                             data-speed="600"
+                             data-start="800"
+                             data-easing="Power4.easeOut"
+                             data-splitin="none"
+                             data-splitout="none"
+                             data-elementdelay="0.01"
+                             data-endelementdelay="0.1"
+                             data-endspeed="500"
+                             data-endeasing="Power4.easeIn"
+                             style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
+                            MOMENTOS INOLVIDABLES
                         </div>
-                        <div class="tp-caption sfr str start" style="font-family: &quot;Open Sans&quot;;
-                            font-size: 14px; color: white; letter-spacing: 3px; transition: all 0s ease 0s;
-                            min-height: 0px; min-width: 0px; line-height: 22px; border-width: 0px; margin: 0px; padding: 0px;
-                            left: 544.605px; top: 136.053px; visibility: visible; opacity: 0;
-                            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 45.3509, 0, 0, 1);"
-                             data-x="600" data-y="150" data-speed="500" data-start="500" data-easing="Power1.easeInOut"
-                             data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0"
-                             data-endspeed="300"> RESPONSIVE DESIGN </div>
-                        <div class="tp-caption light_heavy_60 sfr str start" data-x="600" data-y="175"
-                             data-speed="600" data-start="800" data-easing="Power1.easeInOut"
-                             data-splitin="none" data-splitout="none" data-elementdelay="0"
-                             data-endelementdelay="0" data-endspeed="300" style="transition: all 0s ease 0s;
-                             min-height: 0px; min-width: 0px; line-height: 54px; border-width: 0px; margin: 0px;
-                             padding: 0px; letter-spacing: 0px; font-size: 54px; left: 544.605px; top: 158.728px;
-                             visibility: visible; opacity: 0;
-                             transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 45.3509, 0, 0, 1);">
-                            BRANDING
-                            <br>
-                            DESIGN
-                        </div>
-                        <div class="tp-caption v-lead white-color sfr str start" data-x="600" data-y="320" data-speed="500"
-                             data-start="1100" data-easing="Power1.easeInOut" data-splitin="none" data-splitout="none"
-                             data-elementdelay="0" data-endelementdelay="0" data-endspeed="300"
-                             style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 22px;
-                             border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 13px;
-                             left: 544.605px; top: 290.246px; visibility: visible; opacity: 0;
-                             transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 45.3509, 0, 0, 1);">
-                            Sed tincidunt lacus sed velit elementum, quis feugiat purus iaculis Cras eget .<br>
-                            fringilla arcu, vel porta enim. Maecenas malesuada libero vel justo fermentum blandit.<br>
-                            Etiam pretium tortor vitae dolor convallis bibendum.
-                        </div>
-                        <div class="tp-caption sfr str start" data-x="600" data-y="415" data-speed="500" data-start="1400"
-                             data-easing="Power1.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0"
-                             data-endelementdelay="0" data-endspeed="300"
-                             style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 22px;
-                             border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 12px;
-                             left: 544.605px; top: 376.412px; visibility: visible; opacity: 0;
-                             transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 45.3509, 0, 0, 1);">
-                            <a href="http://volvox.master-themes.com/index-3.html#"
-                               class="btn v-btn v-second-light">View Our Work</a>
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption light_medium_30 lfb ltt tp-resizeme"
+                             data-x="60"
+                             data-y="200"
+                             data-speed="600"
+                             data-start="900"
+                             data-easing="Power4.easeOut"
+                             data-splitin="none"
+                             data-splitout="none"
+                             data-elementdelay="0.01"
+                             data-endelementdelay="0.1"
+                             data-endspeed="500"
+                             data-endeasing="Power4.easeIn"
+                             style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
+                            Si quedan en tu mente para siempre, <br /> deben perdurar mas alla!
+                            <span style="font-size: 24px; font-weight: 400;">―  Enfoco</span>
                         </div>
                     </li>
-                    <li data-transition="fade" data-slotamount="7" data-masterspeed="600"
-                        style="width: 100%; height: 100%; overflow: hidden; visibility: inherit;
-                        opacity: 1; z-index: 20;" class="current-sr-slide-visible">
-                        <div class="slotholder" style="width:100%;height:100%;" data-duration="undefined"
-                             data-zoomstart="undefined" data-zoomend="undefined" data-rotationstart="undefined"
-                             data-rotationend="undefined" data-ease="undefined" data-bgpositionend="undefined"
-                             data-bgposition="center center" data-kenburns="undefined" data-easeme="undefined"
-                             data-bgfit="cover" data-bgfitend="undefined" data-owidth="undefined"
-                             data-oheight="undefined">
-                            <div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="cover"
-                                 data-bgposition="center center" data-bgrepeat="no-repeat" data-lazydone="undefined"
-                                 src="img/slider/paralax-3.jpg" data-src="img/slider/paralax-3.jpg"
-                                 style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat;
-                                 background-image: url(&quot;img/slider/paralax-3.jpg&quot;);
-                                 background-size: cover; background-position: center center;
-                                 width: 100%; height: 100%; opacity: 1; visibility: inherit;">
-                            </div>
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="600">
+                        <img src="<c:url value='/resources/img/baby.jpg'/>"
+                             data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <div class="tp-caption lfb light_heavy_70_shadowed stb white-color"
+                             data-x="center" data-hoffset="0"
+                             data-y="center" data-voffset="-100"
+                             data-speed="800"
+                             data-start="600"
+                             data-easing="Circ.easeInOut"
+                             data-splitin="none"
+                             data-splitout="none"
+                             data-elementdelay="0"
+                             data-endelementdelay="0"
+                             data-endspeed="600"
+                             style="z-index: 2; line-height: 60px; letter-spacing: 7px; font-size: 60px;">
+                            CON TU FAMILIA
                         </div>
-                        <div class="tp-caption sfl tp-resizeme start white-color light_heavy_60"
-                             data-x="center" data-hoffset="0" data-y="center" data-voffset="-70"
-                             data-speed="500" data-start="700" data-easing="Power3.easeInOut"
-                             data-splitin="none" data-splitout="none" data-elementdelay="0.1"
-                             data-endelementdelay="0.1" data-endspeed="300" style="z-index: 2;
-                             line-height: 54px; letter-spacing: 6px; font-size: 54px;
-                             transition: all 0s ease 0s; min-height: 0px; min-width: 0px;
-                             border-width: 0px; margin: 0px; padding: 0px; left: 174px; top: 168.009px;
-                             visibility: visible; opacity: 1;
-                             transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
-                            WELCOME TO VOLVOX
+                        <div class="tp-caption v-caption-h1 lfb st center"
+                             data-x="center" data-hoffset="0"
+                             data-y="bottom" data-voffset="-250"
+                             data-speed="700"
+                             data-start="1100"
+                             data-easing="Circ.easeInOut"
+                             data-splitin="none"
+                             data-splitout="none"
+                             data-elementdelay="0"
+                             data-endelementdelay="0"
+                             data-endspeed="600">
+                            Atesora esos momentos intimos
+                            <br /> en un lugar seguro accesible solo para ti.
                         </div>
-                        <div class="tp-caption sfl tp-resizeme start white-color" data-x="center"
-                             data-hoffset="0" data-y="center" data-voffset="0" data-speed="500"
-                             data-start="1200" data-easing="Power3.easeInOut" data-splitin="none"
-                             data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
-                             data-endspeed="300"
-                             style="z-index: 3; line-height: 18px; letter-spacing: 2px; font-size: 21px;
-                             transition: all 0s ease 0s; min-height: 0px; min-width: 0px; border-width: 0px;
-                             margin: 0px; padding: 0px; left: 319px; top: 249.5px; visibility: visible; opacity: 1;
-                             transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
-                            CHECK ALL THE AWESOME FEATURES
+                        <div class="tp-caption lfb stb"
+                             data-x="center" data-hoffset="0"
+                             data-y="bottom" data-voffset="-150"
+                             data-speed="700"
+                             data-start="1700"
+                             data-easing="Circ.easeInOut"
+                             data-splitin="none"
+                             data-splitout="none"
+                             data-elementdelay="0"
+                             data-endelementdelay="0"
+                             data-endspeed="600">
+                            <a href='#' class="btn v-btn v-second-light">DESCUBRE MAS</a>
                         </div>
-                        <div class="tp-caption sfl stl start" data-x="center" data-y="360"
-                             data-speed="600" data-start="1500" data-easing="Power1.easeInOut"
-                             data-splitin="none" data-splitout="none" data-elementdelay="0"
-                             data-endelementdelay="0" data-endspeed="300"
-                             style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px;
-                             line-height: 22px; border-width: 0px; margin: 0px; padding: 0px;
-                             letter-spacing: 0px; font-size: 12px; left: 427.5px; top: 326.526px;
-                             visibility: visible; opacity: 1;
-                             transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
-                            <a href="http://volvox.master-themes.com/index-3.html#"
-                               class="btn v-btn v-second-light">CHECK THE FEATURES</a>
+                        <!--<div class="v-slider-overlay overlay-colored"></div>-->
+                    </li>
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="600">
+                        <img src="<c:url value='/resources/img/prom.jpg'/>" alt="fullslide6"
+                             data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <div class="tp-caption lfb light_heavy_70_shadowed stb white-color"
+                             data-x="center" data-hoffset="0"
+                             data-y="center" data-voffset="-100"
+                             data-speed="800"
+                             data-start="600"
+                             data-easing="Circ.easeInOut"
+                             data-splitin="none"
+                             data-splitout="none"
+                             data-elementdelay="0"
+                             data-endelementdelay="0"
+                             data-endspeed="600"
+                             style="z-index: 2; line-height: 60px; letter-spacing: 7px; font-size: 60px;">
+                            CON TUS AMIGOS
+                        </div>
+                        <div class="tp-caption v-caption-h1 lfb st center"
+                             data-x="center" data-hoffset="0"
+                             data-y="bottom" data-voffset="-250"
+                             data-speed="700"
+                             data-start="1100"
+                             data-easing="Circ.easeInOut"
+                             data-splitin="none"
+                             data-splitout="none"
+                             data-elementdelay="0"
+                             data-endelementdelay="0"
+                             data-endspeed="600">
+                            Debes compartir lo que es importante para ti y para ellos!
+                        </div>
+                    </li>
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="600">
+                        <img src="<c:url value='/resources/img/workplace.jpg'/>" alt="fullslide6"
+                             data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <div class="tp-caption lfb light_heavy_70_shadowed stb white-color"
+                             data-x="center" data-hoffset="0"
+                             data-y="center" data-voffset="-100"
+                             data-speed="800"
+                             data-start="600"
+                             data-easing="Circ.easeInOut"
+                             data-splitin="none"
+                             data-splitout="none"
+                             data-elementdelay="0"
+                             data-endelementdelay="0"
+                             data-endspeed="600"
+                             style="z-index: 2; line-height: 60px; letter-spacing: 7px; font-size: 60px;">
+                            EN TU TRABAJO
+                        </div>
+                        <div class="tp-caption v-caption-h1 lfb st center"
+                             data-x="center" data-hoffset="0"
+                             data-y="bottom" data-voffset="-250"
+                             data-speed="700"
+                             data-start="1100"
+                             data-easing="Circ.easeInOut"
+                             data-splitin="none"
+                             data-splitout="none"
+                             data-elementdelay="0"
+                             data-endelementdelay="0"
+                             data-endspeed="600">
+                            Cuando tomes decisiones importes!
+                        </div>
+                    </li>
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="600">
+                        <img src="<c:url value='/resources/img/international-conference.jpg'/>" alt="fullslide6"
+                             data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <div class="tp-caption lfb light_heavy_70_shadowed stb white-color"
+                             data-x="center" data-hoffset="0"
+                             data-y="center" data-voffset="-100"
+                             data-speed="800"
+                             data-start="600"
+                             data-easing="Circ.easeInOut"
+                             data-splitin="none"
+                             data-splitout="none"
+                             data-elementdelay="0"
+                             data-endelementdelay="0"
+                             data-endspeed="600"
+                             style="z-index: 2; line-height: 60px; letter-spacing: 7px; font-size: 60px;">
+                            EN TUS CONFERENCIAS
+                        </div>
+                        <div class="tp-caption v-caption-h1 lfb st center"
+                             data-x="center" data-hoffset="0"
+                             data-y="bottom" data-voffset="-250"
+                             data-speed="700"
+                             data-start="1100"
+                             data-easing="Circ.easeInOut"
+                             data-splitin="none"
+                             data-splitout="none"
+                             data-elementdelay="0"
+                             data-endelementdelay="0"
+                             data-endspeed="600">
+                            Cuando se lo haces saber al mundo!
+                        </div>
+                    </li>
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="600">
+                        <img src="<c:url value='/resources/img/runner.jpg'/>" alt="fullslide6"
+                             data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <div class="tp-caption lfb light_heavy_70_shadowed stb white-color"
+                             data-x="center" data-hoffset="0"
+                             data-y="center" data-voffset="-100"
+                             data-speed="800"
+                             data-start="600"
+                             data-easing="Circ.easeInOut"
+                             data-splitin="none"
+                             data-splitout="none"
+                             data-elementdelay="0"
+                             data-endelementdelay="0"
+                             data-endspeed="600"
+                             style="z-index: 2; line-height: 60px; letter-spacing: 7px; font-size: 60px;">
+                            EN LA VIDA
+                        </div>
+                        <div class="tp-caption v-caption-h1 lfb st center"
+                             data-x="center" data-hoffset="0"
+                             data-y="bottom" data-voffset="-250"
+                             data-speed="700"
+                             data-start="1100"
+                             data-easing="Circ.easeInOut"
+                             data-splitin="none"
+                             data-splitout="none"
+                             data-elementdelay="0"
+                             data-endelementdelay="0"
+                             data-endspeed="600">
+                            Cuando te enfocas en tus metas!
+                        </div>
+                    </li>
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="600">
+                        <img src="<c:url value='/resources/img/parents.jpg'/>" alt="fullslide6"
+                             data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <div class="tp-caption lfb light_heavy_70_shadowed stb white-color"
+                             data-x="center" data-hoffset="0"
+                             data-y="center" data-voffset="-100"
+                             data-speed="800"
+                             data-start="600"
+                             data-easing="Circ.easeInOut"
+                             data-splitin="none"
+                             data-splitout="none"
+                             data-elementdelay="0"
+                             data-endelementdelay="0"
+                             data-endspeed="600"
+                             style="z-index: 2; line-height: 60px; letter-spacing: 7px; font-size: 60px;">
+                            EN LA ESCUELA
+                        </div>
+                        <div class="tp-caption v-caption-h1 lfb st center"
+                             data-x="center" data-hoffset="0"
+                             data-y="bottom" data-voffset="-250"
+                             data-speed="700"
+                             data-start="1100"
+                             data-easing="Circ.easeInOut"
+                             data-splitin="none"
+                             data-splitout="none"
+                             data-elementdelay="0"
+                             data-endelementdelay="0"
+                             data-endspeed="600">
+                            Cuando te reunes con otras familias!
+                        </div>
+                    </li>
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="600">
+                        <img src="<c:url value='/resources/img/convention.jpg'/>" alt="fullslide6"
+                             data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <div class="tp-caption lfb light_heavy_70_shadowed stb white-color"
+                             data-x="center" data-hoffset="0"
+                             data-y="center" data-voffset="-100"
+                             data-speed="800"
+                             data-start="600"
+                             data-easing="Circ.easeInOut"
+                             data-splitin="none"
+                             data-splitout="none"
+                             data-elementdelay="0"
+                             data-endelementdelay="0"
+                             data-endspeed="600"
+                             style="z-index: 2; line-height: 60px; letter-spacing: 7px; font-size: 60px;">
+                            EN LA EMPRESA
+                        </div>
+                        <div class="tp-caption v-caption-h1 lfb st center"
+                             data-x="center" data-hoffset="0"
+                             data-y="bottom" data-voffset="-250"
+                             data-speed="700"
+                             data-start="1100"
+                             data-easing="Circ.easeInOut"
+                             data-splitin="none"
+                             data-splitout="none"
+                             data-elementdelay="0"
+                             data-endelementdelay="0"
+                             data-endspeed="600">
+                            Cuando estas en una convencion o lanzas un nuevo producto!
+                        </div>
+                    </li>
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="600">
+                        <img src="<c:url value='/resources/img/stadium.jpg'/>" alt="fullslide6"
+                             data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <div class="tp-caption lfb light_heavy_70_shadowed stb white-color"
+                             data-x="center" data-hoffset="0"
+                             data-y="center" data-voffset="-100"
+                             data-speed="800"
+                             data-start="600"
+                             data-easing="Circ.easeInOut"
+                             data-splitin="none"
+                             data-splitout="none"
+                             data-elementdelay="0"
+                             data-endelementdelay="0"
+                             data-endspeed="600"
+                             style="z-index: 2; line-height: 60px; letter-spacing: 7px; font-size: 60px;">
+                            EN EL ESTADIO
+                        </div>
+                        <div class="tp-caption v-caption-h1 lfb st center"
+                             data-x="center" data-hoffset="0"
+                             data-y="bottom" data-voffset="-250"
+                             data-speed="700"
+                             data-start="1100"
+                             data-easing="Circ.easeInOut"
+                             data-splitin="none"
+                             data-splitout="none"
+                             data-elementdelay="0"
+                             data-endelementdelay="0"
+                             data-endspeed="600">
+                            Cuando estas en un concierto, o ganas el campeonato!
+                        </div>
+                    </li>
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="600">
+                        <img src="<c:url value='/resources/img/blessing.jpg'/>" alt="fullslide6"
+                             data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <div class="tp-caption lfb light_heavy_70_shadowed stb white-color"
+                             data-x="center" data-hoffset="0"
+                             data-y="center" data-voffset="-100"
+                             data-speed="800"
+                             data-start="600"
+                             data-easing="Circ.easeInOut"
+                             data-splitin="none"
+                             data-splitout="none"
+                             data-elementdelay="0"
+                             data-endelementdelay="0"
+                             data-endspeed="600"
+                             style="z-index: 2; line-height: 60px; letter-spacing: 7px; font-size: 60px;">
+                            EN LA IGLESIA
+                        </div>
+                        <div class="tp-caption v-caption-h1 lfb st center"
+                             data-x="center" data-hoffset="0"
+                             data-y="bottom" data-voffset="-250"
+                             data-speed="700"
+                             data-start="1100"
+                             data-easing="Circ.easeInOut"
+                             data-splitin="none"
+                             data-splitout="none"
+                             data-elementdelay="0"
+                             data-endelementdelay="0"
+                             data-endspeed="600">
+                            Cuando recibes muchas bendiciones!
+                        </div>
+                    </li>
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="600">
+                        <img src="<c:url value='/resources/img/family.jpg'/>" alt="fullslide6"
+                             data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <div class="tp-caption lfb light_heavy_70_shadowed stb white-color"
+                             data-x="center" data-hoffset="0"
+                             data-y="center" data-voffset="-100"
+                             data-speed="800"
+                             data-start="600"
+                             data-easing="Circ.easeInOut"
+                             data-splitin="none"
+                             data-splitout="none"
+                             data-elementdelay="0"
+                             data-endelementdelay="0"
+                             data-endspeed="600"
+                             style="z-index: 2; line-height: 60px; letter-spacing: 7px; font-size: 60px;">
+                            EN TODO MOMENTO Y LUGAR
+                        </div>
+                        <div class="tp-caption v-caption-h1 lfb st center"
+                             data-x="center" data-hoffset="0"
+                             data-y="bottom" data-voffset="-250"
+                             data-speed="700"
+                             data-start="1100"
+                             data-easing="Circ.easeInOut"
+                             data-splitin="none"
+                             data-splitout="none"
+                             data-elementdelay="0"
+                             data-endelementdelay="0"
+                             data-endspeed="600">
+                            Siempre estas ENFOCO!
                         </div>
                     </li>
                 </ul>
-                <div class="tp-loader spinner4" style="display: none;">
-                    <div class="dot1"></div>
-                    <div class="dot2"></div>
-                    <div class="bounce1"></div>
-                    <div class="bounce2"></div>
-                    <div class="bounce3"></div>
-                </div>
-                <div class="tp-bannertimer" style="visibility: visible; width: 60.6437%;
-                transform: translate3d(0px, 0px, 0px);"></div>
             </div>
-            <div class="shadow-right"></div>
-            <div class="tp-bullets simplebullets preview4 hidebullets" style="bottom: 20px; left: 50%;
-            margin-left: -18px;">
-                <div class="bullet first"></div>
-                <div class="bullet last selected"></div>
-                <div class="tpclear"></div>
-            </div>
-            <div style="position: absolute; top: 258px; margin-top: -55px; left: 0px;"
-                 class="tp-leftarrow tparrows default preview4 hidearrows">
-                <div class="tp-arr-allwrapper">
-                    <div class="tp-arr-iwrapper">
-                        <div class="tp-arr-imgholder" style="transform: matrix(1, 0, 0, 1, 0, 0);
-                        background-image: url(&quot;img/slider/slider1.jpg&quot;);">
-                        </div>
-                        <div class="tp-arr-imgholder2" style="background-image:
-                        url(&quot;img/slider/slider1.jpg&quot;); transform: matrix(1, 0, 0, 1, 0, 0);">
 
-                        </div>
-                        <div class="tp-arr-titleholder"></div>
-                        <div class="tp-arr-subtitleholder"></div>
-                    </div>
-                </div>
-            </div>
-            <div style="position: absolute; top: 258px; margin-top: -55px; right: 0px;"
-                 class="tp-rightarrow tparrows default preview4 hashoveralready hidearrows">
-                <div class="tp-arr-allwrapper">
-                    <div class="tp-arr-iwrapper">
-                        <div class="tp-arr-imgholder" style="transform: matrix(1, 0, 0, 1, 0, 0);
-                        background-image: url(&quot;img/slider/slider1.jpg&quot;);"></div>
-                        <div class="tp-arr-imgholder2" style="background-image: url(&quot;img/slider/slider1.jpg&quot;);
-                        transform: matrix(1, 0, 0, 1, 0, 0);"></div>
-                        <div class="tp-arr-titleholder"></div>
-                        <div class="tp-arr-subtitleholder"></div>
-                    </div>
-                </div>
-            </div>
+            <div class="shadow-right"></div>
         </div>
-        <!--End slider-->
         <div class="v-page-wrap clearfix no-bottom-spacing">
             <div class="container">
                 <div class="v-spacer col-sm-12 v-height-mini"></div>
@@ -298,16 +503,17 @@
                     <div class="row center">
                         <div class="v-content-wrapper" style="opacity: 1; top: 0px;">
                             <div class="col-sm-12">
-                                <p class="v-smash-text-large white-color">Use video as background</p>
+                                <p class="v-smash-text-large white-color">Fotografia y video para tus eventos,
+                                    sube tus propios archivos en un solo lugar y comparte en redes sociales</p>
                                 <div class="horizontal-break"></div>
-                                <p class="v-smash-text-large-3x white-color">CREATE AWESOME SECTION</p>
+                                <p class="v-smash-text-large-3x white-color">CONTRATA SERVICIOS PROFESIONALES</p>
                             </div>
                         </div>
-                        <video class="parallax-video" poster="http://volvox.master-themes.com/video/video_space_cover.jpg"
+                        <video class="parallax-video" poster="<c:url value="/resources/img/video_space_cover.jpg"/>"
                                preload="auto" autoplay="" loop="loop" muted="muted" data-top-default="0"
                                style="top: 0px;">
                             <source src="http://volvox.master-themes.com/video/video_space_cover.mp4" type="video/mp4">
-                            <source src="http://volvox.master-themes.com/video/video_space_cover.webm" type="video/webm">
+                            <!--source src="http://volvox.master-themes.com/video/video_space_cover.webm" type="video/webm"-->
                         </video>
                     </div>
                 </div>
@@ -342,7 +548,7 @@
                                                     <div class="owl-item" style="width: 241px;">
                                                         <div class="item">
                                                             <figure class="animated-overlay overlay-alt">
-                                                                <img src="./index_files/bus-1.jpg">
+                                                                <img src="<c:url value="/resources/img/banquet.jpg" />">
                                                                 <a href="http://volvox.master-themes.com/portfolio-single.html" class="link-to-post"></a>
                                                                 <figcaption>
                                                                     <div class="thumb-info thumb-info-v2">
@@ -362,7 +568,7 @@
                                                     <div class="owl-item" style="width: 241px;">
                                                         <div class="item">
                                                             <figure class="animated-overlay overlay-alt">
-                                                                <img src="./index_files/bus-4.jpg">
+                                                                <img src="<c:url value="/resources/img/baseball.jpg" />">
                                                                 <a href="http://volvox.master-themes.com/portfolio-single.html" class="link-to-post"></a>
                                                                 <figcaption>
                                                                     <div class="thumb-info thumb-info-v2">
