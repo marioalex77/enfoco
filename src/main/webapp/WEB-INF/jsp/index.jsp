@@ -5,7 +5,6 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
@@ -15,7 +14,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Volvox - Responsive HTML5 Bootstrap Template</title>
+    <title>Enfoco - Conocenos</title>
     <meta name="keywords" content="Fotografia y video para eventos">
     <meta name="description" content="Enfoco - Fotografia y video para eventos personales y empresariales">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -441,38 +440,35 @@
                 <div class="row">
                     <div class="col-sm-3">
                         <div class="feature-box left-icon-v2 v-animation v-animate" data-animation="flip" data-delay="200">
-                            <i class="fa fa-cogs v-icon icn-holder medium"></i>
+                            <i class="fa fa-camera v-icon icn-holder medium"></i>
                             <div class="feature-box-text">
-                                <h3>Unlimited Possibilites</h3>
+                                <h3>Camara y Video Profesional</h3>
                                 <div class="feature-box-text-inner">
-                                    <p>Sed quis dolor in lacus ullamcorper euismod nec et nibh. Morbi mollis,
-                                        enim vitae rutrum porttitor..
-                                    </p>
+                                    <p>Contratanos para tus eventos personales, familiares, profesionales, religiosos.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-3">
                         <div class="feature-box left-icon-v2 v-animation v-animate" data-animation="flip" data-delay="200">
-                            <i class="fa fa-compress v-icon icn-holder medium"></i>
+                            <i class="fa fa-share-alt v-icon icn-holder medium"></i>
                             <div class="feature-box-text">
-                                <h3>Full Responsive</h3>
+                                <h3>Comparte</h3>
                                 <div class="feature-box-text-inner">
-                                <p>Sed quis dolor in lacus ullamcorper euismod nec et nibh. Morbi mollis,
-                                    enim vitae rutrum porttitor.
-                                </p>
+                                <p>Comparte tus recuerdos con quien mas gustes en tus redes sociales. Administra tus fotos
+                                y videos como gustes en la privacidad de tu cuenta gratuita</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-3">
                         <div class="feature-box left-icon-v2 v-animation v-animate" data-animation="flip" data-delay="200">
-                            <i class="fa fa-fire v-icon icn-holder medium"></i>
+                            <i class="fa fa-user-md v-icon icn-holder medium"></i>
                             <div class="feature-box-text">
-                                <h3>Awesome Sliders</h3>
+                                <h3>Registrate como fotografo</h3>
                                 <div class="feature-box-text-inner">
-                                    <p>Sed quis dolor in lacus ullamcorper euismod nec et nibh.
-                                        Morbi mollis, enim vitae rutrum porttitor.
+                                    <p>Ofrece tus servicios profesionales, arma tus paquetes y ofertas,
+                                        utiliza nuestra plataforma para tus entregas. Comparte tu portafolio y tu agenda.
                                     </p>
                                 </div>
                             </div>
@@ -482,11 +478,10 @@
                         <div class="feature-box left-icon-v2 v-animation v-animate" data-animation="flip" data-delay="200">
                             <i class="fa fa-comments-o v-icon icn-holder medium"></i>
                             <div class="feature-box-text">
-                                <h3>Great Support</h3>
+                                <h3>Soporte y seguridad</h3>
                                 <div class="feature-box-text-inner">
-                                    <p>Sed quis dolor in lacus ullamcorper euismod nec et nibh. Morbi mollis,
-                                        enim vitae rutrum porttitor.
-                                    </p>
+                                    <p>Administra tus cuentas, eventos, recuerdos, invita a quien mas gustes, obten
+                                        soporte en linea.</p>
                                 </div>
                             </div>
                         </div>
@@ -512,7 +507,7 @@
                         <video class="parallax-video" poster="<c:url value="/resources/img/video_space_cover.jpg"/>"
                                preload="auto" autoplay="" loop="loop" muted="muted" data-top-default="0"
                                style="top: 0px;">
-                            <source src="http://volvox.master-themes.com/video/video_space_cover.mp4" type="video/mp4">
+                            <source src="<c:url value="/resources/video/Studio_Light_Flares_On.mp4"/>" type="video/mp4">
                             <!--source src="http://volvox.master-themes.com/video/video_space_cover.webm" type="video/webm"-->
                         </video>
                     </div>
@@ -528,9 +523,9 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="v-heading-v3">
-                                <h1 class="no-bottom-padding"><span>Recent Works </span></h1>
-                                <p class="v-lead">If you are looking to work with us do not hesitate to
-                                    contact us via the contact page.</p>
+                                <h1 class="no-bottom-padding"><span>Trabajos recientes </span></h1>
+                                <p class="v-lead">Si estas buscando trabajar con nosotros no dudes en contactarnos,
+                                    registrate, verica los requisitos.</p>
                             </div>
                         </div>
                         <div class="col-sm-12">
@@ -586,7 +581,7 @@
                                                     <div class="owl-item" style="width: 241px;">
                                                         <div class="item">
                                                             <figure class="animated-overlay overlay-alt">
-                                                                <img src="./index_files/bus-16.jpg">
+                                                                <img src="<c:url value="/resources/img/christening.jpg" />">
                                                                 <a href="http://volvox.master-themes.com/portfolio-single.html" class="link-to-post"></a>
                                                                 <figcaption>
                                                                     <div class="thumb-info thumb-info-v2">
@@ -605,7 +600,7 @@
                                                     <div class="owl-item" style="width: 241px;">
                                                         <div class="item">
                                                             <figure class="animated-overlay overlay-alt">
-                                                                <img src="./index_files/bus-17.jpg">
+                                                                <img src="<c:url value="/resources/img/gaba.jpg"/>">
                                                                 <a href="http://volvox.master-themes.com/portfolio-single.html" class="link-to-post"></a>
                                                                 <figcaption>
                                                                     <div class="thumb-info thumb-info-v2">
@@ -623,7 +618,7 @@
                                                     <div class="owl-item" style="width: 241px;">
                                                         <div class="item">
                                                             <figure class="animated-overlay overlay-alt">
-                                                                <img src="./index_files/bus-5.jpg">
+                                                                <img src="<c:url value="/resources/img/hall.jpg" />">
                                                                 <a href="http://volvox.master-themes.com/portfolio-single.html" class="link-to-post"></a>
                                                                 <figcaption>
                                                                     <div class="thumb-info thumb-info-v2">
@@ -641,7 +636,7 @@
                                                     <div class="owl-item" style="width: 241px;">
                                                         <div class="item">
                                                             <figure class="animated-overlay overlay-alt">
-                                                                <img src="./index_files/bus-17.jpg">
+                                                                <img src="<c:url value="/resources/img/young-people.jpg" />">
                                                                 <a href="http://volvox.master-themes.com/portfolio-single.html" class="link-to-post"></a>
                                                                 <figcaption>
                                                                     <div class="thumb-info thumb-info-v2">

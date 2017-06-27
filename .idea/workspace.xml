@@ -7,31 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8730a883-3cb7-4a81-b120-8e58f0f43c81" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/video_space_cover.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/video/flashes2.mov" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/baby-17342__340.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/baby.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/banquet-453799_960_720.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/banquet.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/baseball-1613444_960_720.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/baseball.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/berlin-2212502_960_720.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/berlin.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/blessing-669259_960_720.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/blessing.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/christening-1499314_960_720.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/christening.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/convention-1410870_960_720.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/convention.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/family-1147009_960_720.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/family.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/gaba-1874655_960_720.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/gaba.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/graduation-2349741_960_720.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/graduation.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/hall-1489768_960_720.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/hall.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/international-conference-1597531_960_720.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/international-conference.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/parents-1342348_960_720.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/parents.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/prom-2205139_960_720.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/prom.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/runner-888016_960_720.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/runner.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/stadium-485328_960_720.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/stadium.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/university-105709_960_720.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/university.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/wedding-443600_960_720.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/wedding.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/workplace-1245776_960_720.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/workplace.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/young-people-1445298_960_720.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/young-people.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/video/Studio_Light_Flares_On.mp4" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/menuHeader.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/menuHeader.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,31 +31,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="506" column="36" lean-forward="false" selection-start-line="506" selection-start-column="36" selection-end-line="506" selection-end-column="36" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menuHeader.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/menuHeader.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-763">
-              <caret line="18" column="98" lean-forward="false" selection-start-line="18" selection-start-column="98" selection-end-line="18" selection-end-column="98" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -151,10 +105,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -174,7 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -242,6 +195,10 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="video" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -266,10 +223,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -324,6 +277,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -342,18 +296,18 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="enfoco" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maguzman\IdeaProjects\enfoco\src\main\webapp\resources\video" />
+      <recent name="C:\Users\maguzman\IdeaProjects\enfoco\src\main\webapp\resources\img" />
+      <recent name="C:\Users\maguzman\IdeaProjects\enfoco\src\main\webapp\WEB-INF\jsp" />
+      <recent name="C:\Users\maguzman\IdeaProjects\enfoco\src\main\webapp\resources\js" />
+      <recent name="C:\Users\maguzman\IdeaProjects\enfoco\src\main\webapp\resources\css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Mario Guzman\IdeaProjects\enfoco\src\main\resources" />
       <recent name="C:\Users\maguzman\IdeaProjects\enfoco\src\main\webapp\resources\plugins\rs-plugin\js" />
       <recent name="C:\Users\maguzman\IdeaProjects\enfoco\src\main\webapp" />
       <recent name="C:\Users\maguzman\IdeaProjects\enfoco\web\WEB-INF\pages" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\maguzman\IdeaProjects\enfoco\src\main\webapp\resources\img" />
-      <recent name="C:\Users\maguzman\IdeaProjects\enfoco\src\main\webapp\resources\video" />
-      <recent name="C:\Users\maguzman\IdeaProjects\enfoco\src\main\webapp\WEB-INF\jsp" />
-      <recent name="C:\Users\maguzman\IdeaProjects\enfoco\src\main\webapp\resources\js" />
-      <recent name="C:\Users\maguzman\IdeaProjects\enfoco\src\main\webapp\resources\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -813,7 +767,8 @@
       <workItem from="1498235449064" duration="6000" />
       <workItem from="1498235475972" duration="85000" />
       <workItem from="1498235704021" duration="5575000" />
-      <workItem from="1498506508760" duration="10281000" />
+      <workItem from="1498506508760" duration="10345000" />
+      <workItem from="1498594985591" duration="3909000" />
     </task>
     <task id="LOCAL-00001" summary="Generando application core">
       <created>1496766875878</created>
@@ -843,15 +798,21 @@
       <option name="project" value="LOCAL" />
       <updated>1498258014051</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Generando pagina inicio 1">
+      <created>1498518111738</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1498518111738</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53349000" />
+    <option name="totallyTimeSpent" value="57322000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1386" height="788" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -875,7 +836,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26923078" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25113463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -898,7 +859,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Generando application core" />
     <MESSAGE value="Generando agregando plugins vistas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generando agregando plugins vistas" />
+    <MESSAGE value="Generando pagina inicio 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generando pagina inicio 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1209,22 +1171,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/menuHeader.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-763">
-          <caret line="18" column="98" lean-forward="false" selection-start-line="18" selection-start-column="98" selection-end-line="18" selection-end-column="98" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="506" column="36" lean-forward="false" selection-start-line="506" selection-start-column="36" selection-end-line="506" selection-end-column="36" />
+        <state relative-caret-position="17">
+          <caret line="611" column="99" lean-forward="true" selection-start-line="611" selection-start-column="99" selection-end-line="611" selection-end-column="99" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/menuHeader.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="18" column="98" lean-forward="false" selection-start-line="18" selection-start-column="98" selection-end-line="18" selection-end-column="98" />
+          <folding />
         </state>
       </provider>
     </entry>
