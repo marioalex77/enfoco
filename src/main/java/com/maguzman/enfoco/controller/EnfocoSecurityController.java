@@ -174,7 +174,7 @@ public class EnfocoSecurityController {
     public ModelAndView nuevoRegistroUsuario(ModelAndView model){
         Usuario usuario = new Usuario();
         model.addObject("usuario", usuario);
-        model.setViewName("/auth/signUp");
+        model.setViewName("/auth/registroUsuarios");
         return model;
     }
 
